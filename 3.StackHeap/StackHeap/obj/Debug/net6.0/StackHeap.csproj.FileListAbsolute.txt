@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\bin\Debug\net6.0\StackHeap.exe
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\bin\Debug\net6.0\StackHeap.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\bin\Debug\net6.0\StackHeap.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\bin\Debug\net6.0\StackHeap.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\bin\Debug\net6.0\StackHeap.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\refint\StackHeap.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\StackHeap.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StackHeap\StackHeap\obj\Debug\net6.0\ref\StackHeap.dll
