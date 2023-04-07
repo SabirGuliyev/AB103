@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\bin\Debug\net6.0\BaseStringStringBuilder.exe
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\bin\Debug\net6.0\BaseStringStringBuilder.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\bin\Debug\net6.0\BaseStringStringBuilder.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\bin\Debug\net6.0\BaseStringStringBuilder.dll
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\bin\Debug\net6.0\BaseStringStringBuilder.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.dll
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\refint\BaseStringStringBuilder.dll
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\BaseStringStringBuilder.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\BaseStringStringBuilder\BaseStringStringBuilder\obj\Debug\net6.0\ref\BaseStringStringBuilder.dll
