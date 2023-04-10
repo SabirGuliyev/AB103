@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\bin\Debug\net6.0\AccessEncapsulationRecord.exe
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\bin\Debug\net6.0\AccessEncapsulationRecord.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\bin\Debug\net6.0\AccessEncapsulationRecord.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\bin\Debug\net6.0\AccessEncapsulationRecord.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\bin\Debug\net6.0\AccessEncapsulationRecord.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\refint\AccessEncapsulationRecord.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\AccessEncapsulationRecord.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AccessEncapsulationRecord\AccessEncapsulationRecord\obj\Debug\net6.0\ref\AccessEncapsulationRecord.dll
