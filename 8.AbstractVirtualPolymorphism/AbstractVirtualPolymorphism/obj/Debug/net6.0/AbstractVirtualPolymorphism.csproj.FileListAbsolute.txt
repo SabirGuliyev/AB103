@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\bin\Debug\net6.0\AbstractVirtualPolymorphism.exe
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\bin\Debug\net6.0\AbstractVirtualPolymorphism.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\bin\Debug\net6.0\AbstractVirtualPolymorphism.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\bin\Debug\net6.0\AbstractVirtualPolymorphism.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\bin\Debug\net6.0\AbstractVirtualPolymorphism.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\refint\AbstractVirtualPolymorphism.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\AbstractVirtualPolymorphism.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractVirtualPolymorphism\AbstractVirtualPolymorphism\obj\Debug\net6.0\ref\AbstractVirtualPolymorphism.dll

@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\bin\Debug\net6.0\ReadOnlyInitOnly.exe
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\bin\Debug\net6.0\ReadOnlyInitOnly.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\bin\Debug\net6.0\ReadOnlyInitOnly.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\bin\Debug\net6.0\ReadOnlyInitOnly.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\bin\Debug\net6.0\ReadOnlyInitOnly.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\refint\ReadOnlyInitOnly.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ReadOnlyInitOnly.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReadOnlyInitOnly\ReadOnlyInitOnly\obj\Debug\net6.0\ref\ReadOnlyInitOnly.dll
