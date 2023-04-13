@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\bin\Debug\net6.0\AbstractionInterface.exe
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\bin\Debug\net6.0\AbstractionInterface.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\bin\Debug\net6.0\AbstractionInterface.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\bin\Debug\net6.0\AbstractionInterface.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\bin\Debug\net6.0\AbstractionInterface.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\refint\AbstractionInterface.dll
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\AbstractionInterface.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\AbstractionInterface\AbstractionInterface\obj\Debug\net6.0\ref\AbstractionInterface.dll
