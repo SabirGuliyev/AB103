@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\bin\Debug\net6.0\StructEnumIndexer.exe
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\bin\Debug\net6.0\StructEnumIndexer.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\bin\Debug\net6.0\StructEnumIndexer.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\bin\Debug\net6.0\StructEnumIndexer.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\bin\Debug\net6.0\StructEnumIndexer.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\refint\StructEnumIndexer.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\StructEnumIndexer.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StructEnumIndexer\StructEnumIndexer\obj\Debug\net6.0\ref\StructEnumIndexer.dll
