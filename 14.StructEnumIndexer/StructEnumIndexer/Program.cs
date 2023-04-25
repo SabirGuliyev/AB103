@@ -89,9 +89,13 @@ namespace StructEnumIndexer
                 default:
                     Console.WriteLine("Yanlish deyer gonderilib");
                     break;
+
+
+
             }
 
 
+            CusList<string> arr = new CusList<string>("Salam","Necedir");
 
 
 

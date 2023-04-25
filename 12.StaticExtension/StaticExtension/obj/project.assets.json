@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\StaticExtension\\StaticExtension\\StaticExtension.csproj",
+      "projectUniqueName": "C:\\Users\\sabir\\Desktop\\AB103 git\\12.StaticExtension\\StaticExtension\\StaticExtension.csproj",
       "projectName": "StaticExtension",
-      "projectPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\StaticExtension\\StaticExtension\\StaticExtension.csproj",
+      "projectPath": "C:\\Users\\sabir\\Desktop\\AB103 git\\12.StaticExtension\\StaticExtension\\StaticExtension.csproj",
       "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\StaticExtension\\StaticExtension\\obj\\",
+      "outputPath": "C:\\Users\\sabir\\Desktop\\AB103 git\\12.StaticExtension\\StaticExtension\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

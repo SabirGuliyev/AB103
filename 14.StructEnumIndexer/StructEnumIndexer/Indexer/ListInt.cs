@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace StructEnumIndexer.Indexer
 {
-    internal class ListInt
+    internal class CusList<T>
     {
-        private int[] _arr;
+        private T[] _arr;
 
-        public int this[int index] 
+        public T this[int index] 
         { 
             get
             {
@@ -44,17 +44,17 @@ namespace StructEnumIndexer.Indexer
 
 
 
-        public ListInt()
+        public CusList()
         {
-            _arr = new int[0];
+            _arr = new T[0];
         }
-        public ListInt(int length)
+        public CusList(int length)
         {
-            _arr=new int[length];
+            _arr=new T[length];
         }
-        public ListInt(params int[] nums)
+        public CusList(params T[] nums)
         {
-            _arr = new int[nums.Length];
+            _arr = new T[nums.Length];
 
             for (int i = 0; i < nums.Length; i++)
             {
@@ -63,7 +63,7 @@ namespace StructEnumIndexer.Indexer
         }
 
 
-        public void Add(int num)
+        public void Add(T num)
         {
             Array.Resize(ref _arr, _arr.Length+1);
             _arr[_arr.Length-1] = num;
