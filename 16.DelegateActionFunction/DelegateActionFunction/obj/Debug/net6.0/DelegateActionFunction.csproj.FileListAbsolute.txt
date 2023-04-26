@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\bin\Debug\net6.0\DelegateActionFunction.exe
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\bin\Debug\net6.0\DelegateActionFunction.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\bin\Debug\net6.0\DelegateActionFunction.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\bin\Debug\net6.0\DelegateActionFunction.dll
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\bin\Debug\net6.0\DelegateActionFunction.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.dll
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\refint\DelegateActionFunction.dll
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\DelegateActionFunction.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateActionFunction\DelegateActionFunction\obj\Debug\net6.0\ref\DelegateActionFunction.dll
