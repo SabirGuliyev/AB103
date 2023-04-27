@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Name": "Arif",
+    "Surname": "Abdulla",
+    "Group": {
+      "Id": 1,
+      "Name": "AB103"
+    }
+  },
+  {
+    "Id": 2,
+    "Name": "Saleh",
+    "Surname": "Nebiyev",
+    "Group": {
+      "Id": 1,
+      "Name": "AB103"
+    }
+  },
+  {
+    "Id": 3,
+    "Name": "Nermin",
+    "Surname": "Memmedova",
+    "Group": {
+      "Id": 1,
+      "Name": "AB103"
+    }
+  
+  }]

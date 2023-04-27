@@ -1,0 +1,17 @@
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\bin\Debug\net6.0\FileDirectoryJson.exe
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\bin\Debug\net6.0\FileDirectoryJson.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\bin\Debug\net6.0\FileDirectoryJson.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\bin\Debug\net6.0\FileDirectoryJson.dll
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\bin\Debug\net6.0\FileDirectoryJson.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.dll
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\refint\FileDirectoryJson.dll
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\ref\FileDirectoryJson.dll
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\sabir\OneDrive\Рабочий стол\FileDirectoryJson\FileDirectoryJson\obj\Debug\net6.0\FileDirectoryJson.csproj.CopyComplete
