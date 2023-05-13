@@ -185,12 +185,12 @@
                           <a href="shop.html">
                             <img
                               class="primary-img"
-                              src="~/assets/images/website-images//@product.Image"
+                              src="~/assets/images/website-images//@(product.ProductImages.FirstOrDefault(p=>p.IsPrimary==true)?.Image)"
                               alt="@product.Name"
                             />
                             <img
                               class="secondary-img"
-                              src="~/assets/images/website-images//1-2-270x300.jpg"
+                              src="~/assets/images/website-images//@(product.ProductImages.FirstOrDefault(p=>p.IsPrimary==false)?.Image)"
                               alt="Product Images"
                             />
                           </a>

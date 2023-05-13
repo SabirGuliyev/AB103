@@ -28,7 +28,7 @@ namespace ProniaAB103.Controllers
 
             List<Slide> slides=_context.Slides.OrderBy(s=>s.Order).Take(3).ToList();
 
-            List<Product> products = _context.Products.Include(p=>p.Category).ToList();
+            List<Product> products = _context.Products.Include(p=>p.Category).Include(p=>p.ProductImages).ToList();
 
             HomeVM homeVM = new HomeVM
             {
@@ -44,7 +44,16 @@ namespace ProniaAB103.Controllers
         {
             if (id == null || id < 1) return BadRequest();
 
-            Product product = _context.Products.Include(p=>p.Category).FirstOrDefault(p=>p.Id==id);
+            Product product = _context.Products
+                .Include(p=>p.Category)
+                .Include(p=>p.ProductImages)
+                .Include(p => p.ProductTags).ThenInclude(pt => pt.Tag)
+                .FirstOrDefault(p=>p.Id==id);
+
+
+
+          
+            
 
             if(product==null) return NotFound();
 
