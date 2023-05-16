@@ -50,14 +50,23 @@ namespace ProniaAB103.Controllers
                 .Include(p => p.ProductTags).ThenInclude(pt => pt.Tag)
                 .FirstOrDefault(p=>p.Id==id);
 
+            if (product == null) return NotFound();
 
 
+            List<Product> products = _context.Products.Include(p=>p.ProductImages).Where(p => p.CategoryId == product.CategoryId&&p.Id!=product.Id).ToList();
+          
+
+            DetailsVM detailsVM = new DetailsVM
+            {
+                Product = product,
+                Products = products
+            };
           
             
 
-            if(product==null) return NotFound();
+          
 
-            return View(product);
+            return View(detailsVM);
         }
         public IActionResult About()
         {
