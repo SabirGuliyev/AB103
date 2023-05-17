@@ -1,10 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProniaAB103.Models
 {
     public class Slide
     {
         public int Id { get; set; }
+        [Required]
+        [MaxLength(100)]
         public string Title { get; set; }
         public string SubTitle { get; set; }
 
