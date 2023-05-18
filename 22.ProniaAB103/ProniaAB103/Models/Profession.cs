@@ -1,8 +1,8 @@
 ﻿namespace ProniaAB103.Models
 {
-    public class Color:BaseEntity
+    public class Profession:BaseEntity
     {
         public string Name { get; set; }
-
+        public List<Client> Clients { get; set; }
     }
 }

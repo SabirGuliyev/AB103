@@ -1,8 +1,8 @@
 ﻿namespace ProniaAB103.Models
 {
-    public class ProductImage
+    public class ProductImage:BaseEntity
     {
-        public int Id { get; set; }
+
         public string Image { get; set; }
         public bool? IsPrimary { get; set; }
 

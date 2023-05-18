@@ -3,9 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProniaAB103.Models
 {
-    public class Slide
+    public class Slide:BaseEntity
     {
-        public int Id { get; set; }
         [Required]
         [MaxLength(100)]
         public string Title { get; set; }

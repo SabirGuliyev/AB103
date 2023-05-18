@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HMdw1m6SSUmx17P47xe2J0YdZb4GrpyoWIFdcyUMW5I=",
+  "Hash": "ZUkbgTtoEI9QRPZJ9XakhTB0DJ/jEoTmH6uK//CitiA=",
   "Source": "ProniaAB103",
   "BasePath": "_content/ProniaAB103",
   "Mode": "Default",
@@ -4197,6 +4197,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3.png"
+    },
+    {
+      "Identity": "C:\\Users\\sabir\\Desktop\\AB103 git\\22.ProniaAB103\\ProniaAB103\\wwwroot\\assets\\images\\website-images\\b17d898f-eaa7-4ee8-8666-0e495a95406bgul.jfif",
+      "SourceId": "ProniaAB103",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\AB103 git\\22.ProniaAB103\\ProniaAB103\\wwwroot\\",
+      "BasePath": "_content/ProniaAB103",
+      "RelativePath": "assets/images/website-images/b17d898f-eaa7-4ee8-8666-0e495a95406bgul.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\b17d898f-eaa7-4ee8-8666-0e495a95406bgul.jfif"
     },
     {
       "Identity": "C:\\Users\\sabir\\Desktop\\AB103 git\\22.ProniaAB103\\ProniaAB103\\wwwroot\\assets\\images\\website-images\\bagdagul.png",
