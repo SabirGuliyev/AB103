@@ -18,6 +18,7 @@ namespace ProniaAB103.DAL
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<Client> Clients { get; set; }
         public DbSet<Profession> Professions { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
     }
 }

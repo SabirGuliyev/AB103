@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using ProniaAB103.DAL;
+using ProniaAB103.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<LayoutService>();
 
 builder.Services.AddDbContext<AppDbContext>(opt => 
          opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
