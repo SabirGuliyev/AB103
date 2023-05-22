@@ -38,10 +38,21 @@ namespace ProniaAB103.Controllers
 
             return View(homeVM);
         }
-         
+        
+        //public IActionResult GetData()
+        //{
+           
+        //    return Content(Request.Cookies["Name"].Length+" "+HttpContext.Session.GetString("Surname"));
+        //}
 
         public IActionResult Details(int? id)
         {
+        //    HttpContext.Session.SetString("Surname", "Quliyev");
+
+        //    Response.Cookies.Append("Name", "Nahid", new CookieOptions
+        //    {
+        //        MaxAge = TimeSpan.FromMinutes(10)
+        //    }); 
             if (id == null || id < 1) return BadRequest();
 
             Product product = _context.Products
@@ -61,10 +72,6 @@ namespace ProniaAB103.Controllers
                 Product = product,
                 Products = products
             };
-          
-            
-
-          
 
             return View(detailsVM);
         }
