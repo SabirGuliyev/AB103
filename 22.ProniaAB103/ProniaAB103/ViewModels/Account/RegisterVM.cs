@@ -22,5 +22,6 @@ namespace ProniaAB103.ViewModels
         [Compare(nameof(Password))]
         public string ConfirmPassword { get; set; }
 
+
     }
 }

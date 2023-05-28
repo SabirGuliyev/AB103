@@ -16,7 +16,6 @@ namespace ProniaAB103.Models
 
         public int Order { get; set; }
 
-        [NotMapped]
-        public IFormFile Photo { get; set; }
+
     }
 }

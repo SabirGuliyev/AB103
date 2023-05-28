@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ProniaAB103.DAL;
 using ProniaAB103.Models;
 using ProniaAB103.Utilities.Extensions;
+using ProniaAB103.ViewModels;
 
 namespace ProniaAB103.Areas.ProniaAdmin.Controllers
 {
@@ -17,11 +18,21 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
             _context = context;
             _env = env;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page=0)
         {
-            List<Slide> slides = await _context.Slides.ToListAsync();
+            //ViewBag.TotalPage = Math.Ceiling((decimal)_context.Slides.Count() / 5);
+            //ViewBag.CurrentPage = page;
 
-            return View(slides);
+
+            List<Slide> slides = await _context.Slides.Skip(page*5).Take(5).ToListAsync();
+
+            PaginateVM<Slide> paginateVM = new PaginateVM<Slide>
+            {
+                CurrentPage = page,
+                TotalPage= Math.Ceiling((decimal)_context.Slides.Count() / 5),
+                Items = slides
+            };
+            return View(paginateVM);
         }
 
         public IActionResult Create()
@@ -29,7 +40,7 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Slide slide)
+        public async Task<IActionResult> Create(CreateSlideVM slide)
         {
        
             if (slide.Photo == null)
@@ -48,10 +59,17 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
                 ModelState.AddModelError("Photo", "File hecmi 200 kb den boyuk olmamalidir");
                 return View();
             }
+            Slide newSlide = new Slide
+            {
+                Title = slide.Title,
+                SubTitle = slide.SubTitle,
+                Description = slide.Description,
+                Order = slide.Order,
+                Image = await slide.Photo.CreateFileAsync(_env.WebRootPath, "assets/images/website-images")
+            };
+           
 
-            slide.Image =await slide.Photo.CreateFileAsync(_env.WebRootPath,"assets/images/website-images") ;
-
-            await _context.AddAsync(slide);
+            await _context.Slides.AddAsync(newSlide);
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
@@ -69,12 +87,21 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
 
             if (existed == null) return NotFound();
 
-            return View(existed);
+            UpdateSlideVM slideVM = new UpdateSlideVM
+            {
+                Title = existed.Title,
+                SubTitle = existed.SubTitle,
+                Description = existed.Description,
+                Order = existed.Order,
+                Image = existed.Image,
+
+            };
+            return View(slideVM);
 
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(int? id, Slide slide)
+        public async Task<IActionResult> Update(int? id, UpdateSlideVM slide)
         {
             if (id == null || id < 1) return BadRequest();
 

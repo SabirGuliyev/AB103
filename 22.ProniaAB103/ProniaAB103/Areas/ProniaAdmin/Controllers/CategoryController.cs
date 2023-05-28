@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaAB103.DAL;
 using ProniaAB103.Models;
@@ -6,6 +7,7 @@ using ProniaAB103.Models;
 namespace ProniaAB103.Areas.ProniaAdmin.Controllers
 {
     [Area("ProniaAdmin")]
+    [AutoValidateAntiforgeryToken]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
@@ -14,6 +16,8 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
         {
             _context = context;
         }
+
+        [Authorize(Roles ="Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
 
@@ -22,12 +26,15 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
             return View(categories);
         }
 
+        [Authorize(Roles = "Admin")]
+
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
             if (!ModelState.IsValid)
@@ -51,7 +58,7 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
         }
 
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id < 1) return BadRequest();
@@ -97,7 +104,7 @@ namespace ProniaAB103.Areas.ProniaAdmin.Controllers
             return RedirectToAction(nameof(Index)); 
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || id < 1) return BadRequest();

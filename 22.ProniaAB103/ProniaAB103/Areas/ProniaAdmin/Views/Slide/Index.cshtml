@@ -1,4 +1,4 @@
-﻿@model List<Slide>
+﻿@model PaginateVM<Slide>
 @{
     int count = 0;
 }
@@ -14,21 +14,21 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    
-                                     <th>
+
+                                    <th>
                                         No
                                     </th>
                                     <th>
                                         Image
                                     </th>
-                                   
+
                                     <th>
                                         Title
                                     </th>
                                     <th>
                                         Subtitle
                                     </th>
-                                   
+
                                     <th>
                                         Order
                                     </th>
@@ -38,41 +38,56 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (Slide slide in Model)
+                                @foreach (Slide slide in Model.Items)
                                 {
                                     count++;
                                     <tr>
-                                         <td >
-                                          @count
+                                        <td>
+                                            @count
                                         </td>
-                                        <td >
-                                          <img style="width:130px;height:130px;" src="~/assets/images/website-images/@slide.Image"/>
+                                        <td>
+                                            <img style="width:130px;height:130px;" src="~/assets/images/website-images/@slide.Image" />
                                         </td>
-                                       
+
                                         <td>
                                             @slide.Title
                                         </td>
                                         <td>
-                                           @slide.SubTitle
+                                            @slide.SubTitle
                                         </td>
-                                       
+
                                         <td>
-                                           @slide.Order
+                                            @slide.Order
                                         </td>
-                                      
+
                                         <td>
                                             <a asp-controller="slide" asp-action="update" asp-route-id="@slide.Id" class="btn btn-warning"><i class="mdi mdi-pencil"></i> </a>
-                                             <a asp-controller="slide" asp-action="delete" asp-route-id="@slide.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i> </a>
-                                              <a class="btn btn-primary"><i class="mdi mdi-open-in-new"></i> </a>
+                                            <a asp-controller="slide" asp-action="delete" asp-route-id="@slide.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i> </a>
+                                            <a class="btn btn-primary"><i class="mdi mdi-open-in-new"></i> </a>
                                         </td>
                                     </tr>
                                 }
 
                             </tbody>
                         </table>
+                        <div class="d-flex">
+                            @if (@Model.CurrentPage != 0)
+                            {
+                                  <a class="btn btn-secondary mx-1"   asp-action="index" asp-controller="slide" asp-route-page="@(Model.CurrentPage-1)">Previous</a>
+                            }
+                            @for (int i = 0; i < @Model.TotalPage; i++)
+                            {
+                                <a class="btn btn-secondary mx-1 @(i==Model.CurrentPage?"disabled":"")"   asp-action="index" asp-controller="slide" asp-route-page="@i">@(i+1)</a>
+                            }
+                              @if (@Model.CurrentPage+1 < @Model.TotalPage)
+                            {
+                                  <a class="btn btn-secondary mx-1"   asp-action="index" asp-controller="slide" asp-route-page="@(Model.CurrentPage+1)">Next</a>
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
     </div>
