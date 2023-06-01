@@ -35,7 +35,7 @@
                                 }
                       </select>*@
 
-                      <select asp-for="ProfessionId" asp-items="new SelectList(ViewBag.Professions,nameof(Profession.Id),nameof(Profession.Name))">
+                      <select  asp-for="ProfessionId" asp-items="new SelectList(ViewBag.Professions,nameof(Profession.Id),nameof(Profession.Name))">
                            <option selected disabled>Select Profession</option>
                       </select>
                       

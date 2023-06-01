@@ -1,0 +1,58 @@
+﻿@model CreateProductVM  
+ 
+<div class="content-wrapper">
+          <div class="row">
+           
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Create Client</h4>
+                  
+                  <form class="forms-sample" method="post">
+                    <div class="form-group">
+                      <label asp-for="Name">Name</label>
+                      <input asp-for="Name"  class="form-control"  placeholder="Name">
+                      <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="Price">Price</label>
+                      <input asp-for="Price"  class="form-control"  placeholder="Price">
+                      <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="Description">Description</label>
+                      <input asp-for="Description"  class="form-control"  placeholder="Description">
+                      <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="Sku">Sku</label>
+                      <input asp-for="Sku"  class="form-control"  placeholder="Sku">
+                      <span asp-validation-for="Sku" class="text-danger"></span>
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="CategoryId">Category</label>
+                      <select class="form-control" asp-for="CategoryId" asp-items="new SelectList(ViewBag.Categories,nameof(Category.Id),nameof(Category.Name))">
+                           <option selected disabled>Select Category</option>
+                      </select>
+                      
+                      <span asp-validation-for="CategoryId" class="text-danger"></span>
+                      
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="TagIds">Tags</label>
+                      <select class="form-control" asp-for="TagIds" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+                        
+                      </select>
+                      
+                      <span asp-validation-for="TagIds" class="text-danger"></span>
+                      
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <a asp-action="index" asp-controller="client" class="btn btn-light">Cancel</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
