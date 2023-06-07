@@ -229,6 +229,40 @@ namespace ProniaAB103.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("ProniaAB103.Models.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BasketItems");
+                });
+
             modelBuilder.Entity("ProniaAB103.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -291,6 +325,36 @@ namespace ProniaAB103.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Color");
+                });
+
+            modelBuilder.Entity("ProniaAB103.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("PurchasedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("ProniaAB103.Models.Product", b =>
@@ -525,6 +589,29 @@ namespace ProniaAB103.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ProniaAB103.Models.BasketItem", b =>
+                {
+                    b.HasOne("ProniaAB103.Models.AppUser", "AppUser")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("ProniaAB103.Models.Order", "Order")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("OrderId");
+
+                    b.HasOne("ProniaAB103.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ProniaAB103.Models.Client", b =>
                 {
                     b.HasOne("ProniaAB103.Models.Profession", "Profession")
@@ -534,6 +621,15 @@ namespace ProniaAB103.Migrations
                         .IsRequired();
 
                     b.Navigation("Profession");
+                });
+
+            modelBuilder.Entity("ProniaAB103.Models.Order", b =>
+                {
+                    b.HasOne("ProniaAB103.Models.AppUser", "AppUser")
+                        .WithMany("Orders")
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("ProniaAB103.Models.Product", b =>
@@ -596,9 +692,21 @@ namespace ProniaAB103.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("ProniaAB103.Models.AppUser", b =>
+                {
+                    b.Navigation("BasketItems");
+
+                    b.Navigation("Orders");
+                });
+
             modelBuilder.Entity("ProniaAB103.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("ProniaAB103.Models.Order", b =>
+                {
+                    b.Navigation("BasketItems");
                 });
 
             modelBuilder.Entity("ProniaAB103.Models.Product", b =>

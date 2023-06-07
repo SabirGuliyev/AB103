@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaAB103.DAL;
 using ProniaAB103.Models;
@@ -9,10 +11,12 @@ namespace ProniaAB103.Controllers
     public class HomeController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
 
-        public HomeController(AppDbContext context)
+        public HomeController(AppDbContext context,UserManager<AppUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
         public IActionResult Index()
         {
@@ -80,5 +84,16 @@ namespace ProniaAB103.Controllers
             return View();
         }
 
+        [Authorize]
+        public async Task<IActionResult> Checkout()
+        {
+            AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
+            ViewBag.Items=await _context.BasketItems
+                .Where(b=>b.AppUserId==user.Id&&b.OrderId==null)
+                .Include(b=>b.Product)
+                .ToListAsync();
+
+            return View();
+        }
     }
 }

@@ -21,6 +21,8 @@ namespace ProniaAB103.DAL
         public DbSet<Client> Clients { get; set; }
         public DbSet<Profession> Professions { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
     }
 }
