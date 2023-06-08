@@ -37,7 +37,7 @@ namespace ProniaAB103.Services
                 if (user == null) throw new Exception("nese o deyile");
 
                 List<BasketItem> basketItems = await _context.BasketItems
-                    .Where(b => b.AppUserId == user.Id)
+                    .Where(b => b.AppUserId == user.Id && b.OrderId == null)
                     .Include(b => b.Product)
                     .ThenInclude(p => p.ProductImages.Where(pi => pi.IsPrimary == true)).ToListAsync();
 

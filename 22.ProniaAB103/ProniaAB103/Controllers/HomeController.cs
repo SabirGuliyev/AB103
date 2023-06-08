@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaAB103.DAL;
+using ProniaAB103.Interfaces;
 using ProniaAB103.Models;
+using ProniaAB103.Services;
 using ProniaAB103.ViewModels;
 
 namespace ProniaAB103.Controllers
@@ -12,14 +14,19 @@ namespace ProniaAB103.Controllers
     {
         private readonly AppDbContext _context;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IEmailService _emailService;
 
-        public HomeController(AppDbContext context,UserManager<AppUser> userManager)
+        public HomeController(AppDbContext context,UserManager<AppUser> userManager,IEmailService emailService)
         {
             _context = context;
             _userManager = userManager;
+            _emailService = emailService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+           
+
+
             #region AddToDataBase
             //_context.Slides.Add(slide);
             //_context.Slides.AddRange(slides);
@@ -30,10 +37,12 @@ namespace ProniaAB103.Controllers
             #endregion
 
 
-            List<Slide> slides=_context.Slides.OrderBy(s=>s.Order).Take(3).ToList();
+            
+            List<Slide> slides = _context.Slides.OrderBy(s => s.Order).Take(3).ToList();
 
-            List<Product> products = _context.Products.Include(p=>p.Category).Include(p=>p.ProductImages).ToList();
-
+            List<Product> products = _context.Products.Include(p => p.Category).Include(p => p.ProductImages).ToList();
+            //ctrl+k+s
+         
             HomeVM homeVM = new HomeVM
             {
                 Sliders = slides,
@@ -94,6 +103,67 @@ namespace ProniaAB103.Controllers
                 .ToListAsync();
 
             return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Checkout(OrderVM orderVM)
+        {
+            AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            List<BasketItem> items = await _context.BasketItems
+               .Where(b => b.AppUserId == user.Id && b.OrderId == null)
+               .Include(b => b.Product)
+               .ToListAsync();
+
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Items = items;
+                return View();
+            }
+
+            decimal total=0;
+            foreach (var item in items)
+            {
+                total += item.Count * item.Price;
+            }
+            Order order = new Order
+            {
+                Address = orderVM.Address,
+                Status = null,
+                AppUserId = user.Id,
+                PurchasedAt = DateTime.Now,
+                TotalPrice = total,
+                BasketItems = items
+            };
+
+            await _context.Orders.AddAsync(order);
+            await _context.SaveChangesAsync();
+
+            string body = @"<table>
+                           <thead>
+                               <tr>
+                                   <th>Product</th>
+                                   <th>Count</th>
+                                   <th>Price</th>
+                       
+                               </tr>
+                           </thead>
+                           <tbody>";
+
+            foreach (var item in items)
+            {
+                body += @$"     <tr>
+                                   <td>{item.Product.Name}</td>
+                                   <td>{item.Count}</td>
+                                   <td>{item.Price}</td>
+                               </tr>";
+            }
+            body += @"</tbody>
+                       </table>";
+
+           await _emailService.SendMail(user.Email, "Order Placement", body, true);
+
+            return RedirectToAction(nameof(Index));
+           
         }
     }
 }

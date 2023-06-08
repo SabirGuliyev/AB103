@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProniaAB103.DAL;
+using ProniaAB103.Interfaces;
 using ProniaAB103.Models;
 using ProniaAB103.Services;
 
@@ -30,6 +31,7 @@ builder.Services.AddSession(option =>
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<LayoutService>();
+builder.Services.AddScoped<IEmailService,EmailService>();
 
 builder.Services.AddDbContext<AppDbContext>(opt => 
          opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));

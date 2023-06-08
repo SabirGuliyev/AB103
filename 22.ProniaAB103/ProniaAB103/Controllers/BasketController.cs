@@ -31,7 +31,7 @@ namespace ProniaAB103.Controllers
                 if (user == null) return NotFound();
 
                 List<BasketItem> basketItems = await _context.BasketItems
-                    .Where(b => b.AppUserId == user.Id)
+                    .Where(b => b.AppUserId == user.Id&&b.OrderId==null)
                     .Include(b=>b.Product)
                     .ThenInclude(p=>p.ProductImages.Where(pi=>pi.IsPrimary==true)).ToListAsync();
 
@@ -94,7 +94,7 @@ namespace ProniaAB103.Controllers
                AppUser user=await _userManager.FindByNameAsync(User.Identity.Name);
                if (user == null) return NotFound();
 
-               BasketItem existed=await _context.BasketItems.FirstOrDefaultAsync(b=>b.ProductId==id&&b.AppUserId==user.Id);
+               BasketItem existed=await _context.BasketItems.FirstOrDefaultAsync(b=>b.ProductId==id&&b.AppUserId==user.Id && b.OrderId == null);
                 if (existed!=null)
                 {
                     existed.Count++;
